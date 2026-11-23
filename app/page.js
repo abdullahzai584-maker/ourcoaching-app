@@ -1111,9 +1111,8 @@ export default function CoachingPortalPage() {
             </button>
 
             <div className="mut sm">
-              Trial default: <b>{ownerMeta.adminEmail}</b> / <b>{ownerMeta.adminPw}</b> ({trialLimitDays} days
-              trial) · Owner: <b>{ownerMeta.ownerEmail}</b>
-            </div>
+  Trial default: <b>{ownerMeta.adminEmail}</b> / <b>{ownerMeta.adminPw}</b> ({trialLimitDays} days trial)
+</div>
           </form>
         </div>
       ) : (
